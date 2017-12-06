@@ -1,0 +1,338 @@
+﻿/* main page defaults */
+/* ID styles   */
+
+/* ---------------------Styles for All Pages ----------------------------------*/
+body 
+{	
+background-image:url('../images/background.png');
+}
+
+#HOT_header {
+	text:center;
+	width: 95%;
+	margin: 0 auto;
+	background-image:url('../images/background.png');
+}
+
+
+#subbanner {
+	width: 95%;
+	margin: 0px auto;
+	padding: 1px 10px 10px 10px;
+	text-align:center;
+	background-color:black;
+	margin-top:10px
+}
+#subbanner img {
+	width:75%; 
+	height:auto;
+	vertical-align: top;
+	margin-top: 3px;
+}
+
+/* =-----------------------Styles For Index --------------------------------- */
+#fadewrapper {
+		background:black; 
+		width:95%; 
+		margin:10px auto; 
+		text-align:center
+}
+
+#fadeshow4 {
+/*		margin-left:15%; */
+		margin:0px auto;
+		vertical-align:top; 
+		z-index:0
+}		
+
+#fadeshow4.gallerylayer img{ 
+width: 100%;
+height: auto;
+z-index:0;
+}
+		
+#contentContainer{
+	background-image:url('../images/background.png');
+	float:left;
+	width: 65%;
+	min-width: 320px;
+	}
+	
+#secContent img, #secContent0 img, #secContent1 img, #secContent2 img{
+	height:100px; width:auto;
+	margin: 3px 0 0 10px;
+	float: left;
+	vertical-align:top;
+}
+
+#mainContent, #spotlight, #secContent, #secContent0, #secContent1, #secContent2, #secContent3 {
+	position: relative;
+	min-width: 320px;
+	margin: 10px 0px 0 30px;
+	padding: 10px 10px 10px 10px;
+	background-color:black;
+}
+
+#rightside{ 
+	width: 29%;
+	position:relative;
+	min-width: 250px;
+	vertical-align:top;
+	float: left;
+	margin-top: 10px; 
+	margin-left:30px;
+	padding: 10px 10px 10px 10px;
+	background-color:black;
+	line-height:150%;
+}  
+#first{ 
+	width: 29%;
+	position:relative;
+	min-width: 250px;
+	vertical-align:top;
+	float: left;
+	margin-top: 10px; 
+	margin-left:30px;
+	margin-bottom:10px;
+	padding: 10px 10px 10px 10px;
+	background-color:black;
+	line-height:150%;
+}
+/* =-----------------------Styles For Linked Pages --------------------------------- */
+
+#content, #content0, #content1, #content2, #content3, #content4, #content5, #content6, #content7, #content8, #content9, #content10, #content11, 
+#content12, #content13, #content14, #content15, #content16, #content17, #content18, #content19, #content20, #content21, #content22, #content23, 
+#content24, #content25{
+	width: 95%;
+	margin: 10px auto;
+	padding: 10px 10px 10px 10px;
+	background-color:black;
+	}
+/*------------------------Styles for All Pages --------------------------------------*/
+#footer	{
+	clear:both;
+	text-align:left;
+	clear: both;
+	width: 95%;
+	margin: 10px auto;
+	padding: 10px 10px 10px 10px;
+	background-color:black;
+}
+
+#footer ul li {
+	display:inline;
+}	
+#footer img{
+	height:30px;
+	margin-top: 0px; }	 /*Standard size for media icons*/
+	
+#google{
+	float:right;
+	margin-right:20px;
+			}
+
+/* tag styles */
+
+/* fix line height in header tags */
+h1,h2,h3,h4,h5 {
+	font-family:Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+	color:#FFFFFF;
+	
+}
+
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bolder;
+	color:white;
+	text-align:left;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:white;
+}
+
+h3 {font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:white;
+	text-transform: uppercase;
+	}
+	
+h4 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:white;
+}
+
+p {font-family:Arial, Helvetica, sans-serif;
+	color:white;
+	}
+
+li{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	color:white;
+}
+ol, ul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	list-style:none;}
+}
+	/*link css */
+
+a:link {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+    color: red;
+}
+a:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+    color: red;
+}
+a:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+    color: yellow;
+}
+a:active {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	color: yellow;
+}
+a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	color: red;
+}	
+
+	
+/* class styles */	
+.banner {color:white;}
+
+/* image format css */
+.robotImage {
+	float:right;
+	width: 340px;
+	text-align: center;
+}
+
+.robotImage img {
+	height: 240px;
+	text-align: center;
+}
+
+.gameLogo
+{
+vertical-align:top;
+height: 100px; 
+float: left;
+margin-left: 3px;
+margin-right: 10px;
+}
+
+.logo
+{
+vertical-align:top;
+height: 100px; 
+float: left;
+margin-right: 10px;
+}
+
+.cvideo
+{  margin-left: auto;
+    margin-right: auto;
+    display: block	
+}
+
+.description {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+
+
+
+/******************************************************
+Navigation Bar 
+*******************************************************/
+.navbar-default {	
+	margin:auto;
+	width:95%;		
+    background-color: black;
+    border-color:#242424;
+ 	border-radius: 7px 0px 0 0px;
+  	-moz-border-radius: 7px 0px 0 0px;
+ 	-webkit-border-radius: 7px 0px 0 0px;
+
+}
+
+.navbar-header{ /*background of "Home" button and collapsed menu header */
+  background-color:black;
+  text-align:left;
+  padding: 15px 0 15px 10px;
+  border-radius: 7px 0px 0 0;
+  -moz-border-radius: 7px 0px 0 0;
+  -webkit-border-radius: 7px 0px 0 0;
+  }
+  
+.navbar-brand {float:none;}  
+
+
+.navbar-default .navbar-brand{	/*Home button*/
+	font-size:large;
+     color: white;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	font-size:large;
+     color:red;
+}
+
+.navbar-nav{
+	background-color:black; /*background color of top level menu items*/
+}
+
+.navbar .nav > li > a {
+    float: none;
+    line-height: 19px;
+    padding: 15px 10px 5px; 
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color: white;	/*text color of top level menu text */
+}
+
+/*Sets the text hover color on navbar*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: red;  
+}
+
+/*display dropdown menu on hover instead of on click */
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+	margin-top:0px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+   color: #262626;   /*standard drop down text is gray */
+   text-decoration: none;
+   background-color: maroon;  /*change background color of links in drop down here*/
+   color:white; /*text color in highlighted dropdown*/
+   }
+   
+.navbar-right img {
+	margin-top:10px;
+	margin-right:5px;
+	height:30px;
+}
+    
+
+.collapsed{
+	background-color:black; /*color of menu icon in collapsed menubar*/
+}
+
